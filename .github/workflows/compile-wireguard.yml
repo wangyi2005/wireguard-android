@@ -1,6 +1,8 @@
 name: Compile WireGuard for Android
 
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
